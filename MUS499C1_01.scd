@@ -64,10 +64,10 @@ true.class; // True
 
 // basic math functions.
 
-2 + 2;
-10 - 17;
-26 / 278;
-167 * 245;
+2 + 2; // 4
+10 - 17; // -7
+26 / 278; // 0.0935...
+167 * 245; // 40915
 
 // rounding
 
@@ -93,10 +93,10 @@ abs(-200); // 200
 "hello paul".scramble; // ohlula pel
 "hello" ++ " " ++ "paul" // hello paul
 
-// methods are defined by class, can mean different things in for different classes.
+// methods are defined by class, can mean different things for different classes (or not be understood at all).
 
-// local variables can be defined via var, but are limited to a single evaluation.
-// can select multiple lines and shift + enter to run chunk of code
+// local variables can be defined via var, but are then limited to a single evaluation.
+// select multiple lines and shift + enter to run chunk of code
 
 var value;
 value = 9;
@@ -124,18 +124,18 @@ x = "something";
 
 // comparitive operators, which return boolean results
 
-3 > 2;
-3 < 2;
-3 >= 2;
-3 <= 27;
-"hello" == "hello";
-"hello" != "paul";
+3 > 2; // true
+3 < 20; // true
+3 >= 2; // true
+3 <= 27; // true
+"hello" == "hello"; // true
+"hello" != "paul"; // true
 
 // also && for boolean "AND" and || for "OR".
 
 // use ctrl + d with phrase highlighted to bring up doc.
 
-// using if with boolean logic.
+// using "if" with boolean logic.
 // also postln to post to post window.
 
 (
@@ -178,4 +178,4 @@ if(x == 4,
 // with execution argument.
 ~newfunction.value(6);
 
-// note that functions always return last line only.
+// note that code always returns last line only.
