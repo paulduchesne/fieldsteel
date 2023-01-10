@@ -1,2 +1,2 @@
-# fieldsteel
-Study notes for sc3.
+# Fieldsteel
+SuperCollider study notes.
